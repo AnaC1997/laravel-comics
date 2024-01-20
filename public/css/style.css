@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+/*header*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+img{
+    width: 80px;
+    height: 80px;
+}
+
+.styleMenuLinks{
+    display: flex;
+    gap: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/*footer*/
+.contenitoreFooter {
+    color: rgb(243, 238, 238);
+    width: 100%;
+    min-height: 300px;
+    background-image: url("/images/footer-bg.jpg");
+    /*
+    filter: grayscale(100%);
+    color: white;*/
+}
+
+
+.contenuto {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+h2{
+    padding-bottom: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit; /*Utilizza il colore ereditato dal contenitore */
+}
+
+a:hover {
+    color: #585ded;
+}
+
+ul li {
+    text-decoration: none;
+    list-style: none;
+   padding-bottom: 0.3rem;
+}
+
+.lista{
+    padding-top: 2rem;
+}
+
+.imgDc{
+    width: 500px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.pB1{
+    padding-bottom: 1rem;
+}
+
+
+/*****Style Section2 *******/
+.contenitoreIcone{
+    background-color: #303030;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+button{
+    padding: 1rem;
+    border-color: #063d91;
+    cursor: pointer;
+    color: white;
+    background-color: #303030;
+    margin-left: 2rem;
+}
+
+button:hover{
+    background-color: #0082F9;
+}
+
+h4{
+    color: #1D64CC;
+}
+.icone{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    margin-right: 2rem;
+    cursor: pointer;
+}

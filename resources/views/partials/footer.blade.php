@@ -2,7 +2,7 @@
 <section class="contenitoreFooter">
     <div class="contenuto">
         <span class="lista">
-            <h2>DC COMICS</h2>
+            <h5>DC COMICS</h5>
             <ul>
                 <li><a href="#">Charaters</a></li>
                 <li><a href="#">Comics</a></li>
@@ -14,7 +14,7 @@
 
             </ul>
 
-            <h2>SHOP</h2>
+            <h5>SHOP</h5>
             <ul>
                 <li><a href="#">Shop DC</a></li>
                 <li><a href="#">Shop D Collectibles</a></li>
@@ -22,7 +22,7 @@
         </span>
 
         <span class="lista">
-            <h2>DC</h2>
+            <h5>DC</h5>
             <ul>
                 <li><a href="#">Terms Of Use</a></li>
                 <li><a href="#">Privacy policy (New)</a></li>
@@ -39,7 +39,7 @@
         </span>
 
         <span class="lista">
-            <h2>SITES</h2>
+            <h5>SITES</h5>
             <ul>
                 <li><a href="#">DC</a></li>
                 <li><a href="#">MAD Magazine</a></li>
@@ -58,17 +58,19 @@
 </section>
 
 <!--Section icone social-->
+
 <section class="contenitoreIcone">
-    <span>
+    <span class="btnSign" >
         <button>SIGN-UP NOW!</button>
     </span>
     <span class="icone">
-        <h4>FLOW US</h4>
-        <img src="{{ asset('images/footer-facebook.png')}}" alt="#">
-        <img src="{{ asset('images/footer-periscope.png')}}" alt="#">
-        <img src="{{ asset('images/footer-pinterest.png')}}" alt="#">
-        <img src="{{ asset('images/footer-twitter.png')}}" alt="#">
-        <img src="{{ asset('images/footer-youtube.png')}}" alt="#">
+        <h5>FLOW US</h5>
+        <img class="iconeFooter" src="{{ asset('images/footer-facebook.png')}}" alt="#">
+        <img class="iconeFooter" src="{{ asset('images/footer-periscope.png')}}" alt="#">
+        <img class="iconeFooter" src="{{ asset('images/footer-pinterest.png')}}" alt="#">
+        <img class="iconeFooter" src="{{ asset('images/footer-twitter.png')}}" alt="#">
+        <img class="iconeFooter" src="{{ asset('images/footer-youtube.png')}}" alt="#">
 
     </span>
 </section>
+

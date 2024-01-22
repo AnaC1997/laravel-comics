@@ -23,8 +23,9 @@
         <section style= "background-color:black">
             @include('partials.card')
             @yield("button")
+            @include('partials.sotoMenu')
         </section>
-
+      
     </main>
 
     <footer>

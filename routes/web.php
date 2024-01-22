@@ -16,6 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $menuLinks = config("data.menuLinks");
     $infoCard = config("data.infoCard");
+    $infoComic = config("data.infoComic");
 
-    return view('pagina', ['menuLinks' => $menuLinks], ['infoCard' => $infoCard]);
+    return view('pagina', [
+        'menuLinks' => $menuLinks,
+        'infoCard' => $infoCard,
+        'infoComic' => $infoComic,
+    ]);
 });
